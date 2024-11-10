@@ -28,6 +28,7 @@ async function onsubmit(event) {
         const data = await getImages(userInput);
 
         if (!data.total) {
+            loadMoreBtn.style.display = 'none';
             iziToast.show({
                 message:
                     'Sorry, there are no images matching your search query. Please try again!',
