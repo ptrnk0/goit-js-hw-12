@@ -135,7 +135,6 @@ form button:hover {
 .list-item {
     width: calc((100% - 48px) / 3);
     max-width: 360px;
-    max-height: 200px;
     border: 1px solid #808080;
 }
 
@@ -151,6 +150,7 @@ form button:hover {
 
 .list-item-info {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 4px 0;
