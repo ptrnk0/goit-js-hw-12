@@ -138,6 +138,18 @@ form button:hover {
     border: 1px solid #808080;
 }
 
+@media (max-width: 768px) {
+    .list-item {
+        width: 100%
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .list-item {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
 .image-link {
     height: 152px;
 }
